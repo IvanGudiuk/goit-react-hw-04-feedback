@@ -19,4 +19,5 @@ export function Buttons({ content, clickHandler }) {
 }
 Buttons.propTypes = {
   content: PropTypes.arrayOf(PropTypes.string),
+  clickHandler: PropTypes.func.isRequired,
 };

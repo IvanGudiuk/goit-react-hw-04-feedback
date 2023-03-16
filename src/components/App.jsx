@@ -10,6 +10,7 @@ export class App extends Component {
     neutral: 0,
     bad: 0,
   };
+
   countTotalFeedback() {
     const values = Object.values(this.state);
     const total = values.reduce((x, y) => x + y);
@@ -27,6 +28,7 @@ export class App extends Component {
     const feedback = e.target.name;
     this.setState(prevState => ({ [feedback]: prevState[feedback] + 1 }));
   };
+
   render() {
     return (
       <div
