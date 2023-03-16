@@ -1,0 +1,6 @@
+{
+  "btnText": ["good", "neutral", "bad"],
+  "heading": "Please leave feedback",
+  "statisticsTitle": "Statistics",
+  "defaultText": "There is no feedback"
+}

@@ -1,0 +1,13 @@
+.btn {
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 1px 1px;
+  outline: none;
+  background-color: tomato;
+  color: antiquewhite;
+  border: none;
+}
+.btn:not(last-child) {
+  margin-right: 10px;
+}
