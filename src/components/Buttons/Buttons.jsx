@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import css from './Buttons.module.css';
 export function Buttons({ content, clickHandler }) {
   return (
-    <div className="btn-container">
+    <>
       {content.map(text => (
         <button
           type="button"
@@ -14,7 +14,7 @@ export function Buttons({ content, clickHandler }) {
           {text}
         </button>
       ))}
-    </div>
+    </>
   );
 }
 Buttons.propTypes = {
